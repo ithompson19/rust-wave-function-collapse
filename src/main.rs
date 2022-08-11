@@ -1,3 +1,6 @@
+mod TileMap;
+
 fn main() {
-    println!("Hello, world!");
+    let mut map: TileMap::TileMap = TileMap::TileMap::default();
+    map.collapse_map();
 }
